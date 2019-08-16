@@ -1,0 +1,48 @@
+.stopTimer{
+    position: absolute;
+    top: 150%;
+    height: 100px;
+    width: 100px;
+    background-color: white !important;
+    transform: rotate(45deg);
+    border-radius: 100% !important;
+}
+
+.timer-enter{
+    transform: scale(100)  rotate(45deg) !important;
+    border-radius: 10% !important;
+}
+.timer-enter-active{
+    transform: scale(1)  rotate(45deg) !important;
+    border-radius: 10% !important;
+    transition-duration: 300ms
+}
+.timer-enter-done{
+    transform: scale(1)  rotate(45deg) !important;
+    border-radius: 100% !important;
+}
+.timer-exit{
+    transform: scale(1)  rotate(45deg) !important;
+    border-radius: 10% !important;
+}
+.timer-exit-active{
+    transform: scale(100)  rotate(45deg) !important;
+    border-radius: 10% !important;
+    transition-duration: 2s;
+}
+.timer-exit-done{
+    transform: scale(100)  rotate(45deg) !important;
+    border-radius: 10% !important;
+
+}
+.animationTimer{
+    z-index: 9800;
+    position: absolute;
+    top: 150%;
+    height: 100px;
+    width: 100px;
+    transform: scale(100) rotate(45deg);
+}
+
+
+

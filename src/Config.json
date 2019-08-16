@@ -1,0 +1,17 @@
+{
+    "levels": [1,2,3],
+    "level": {
+        "1": {
+            "counter": 5
+        },
+        "2": {
+            "counter": 10
+        },
+        "3": {
+            "counter": 20
+        }
+    },
+    "defaultColor1": "#2699FB",
+    "defaultColor2": "#26FBD0",
+    "defaultCounter": 5
+}
