@@ -36,7 +36,7 @@ export default class CardCustom extends Component {
                     <Row className="justify-content-center d-flex">
                         <p>Qui a buzzé cette réponse ?</p>
                         <button className="leaveBtn position-absolute" style={{ top: '1%', right: '1%' }} onClick={action}>
-                            <img src="/img/symbolex.png" alt="leave icon" />
+                            <img src="./img/symbolex.png" alt="leave icon" />
                         </button>
                     </Row>
                 )
