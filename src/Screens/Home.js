@@ -138,7 +138,7 @@ export default class Home extends Component {
             return (
                 <Container fluid className="position-relative vh-100">
                     <Button className="leaveBtn reset" onClick={this.reset}>
-                        <img src="./img/symbolex.png" alt="reset icon" />
+                        <img src="/img/symbolex.png" alt="reset icon" />
                     </Button>
                     <Container className="position-relative wrapperCustom h-100">
                         <CardCustom
