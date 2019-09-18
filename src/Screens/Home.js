@@ -119,7 +119,7 @@ export default class Home extends Component {
                         <ColorPicker color={team1Color} team={1} action={this.handleChangeColor} />
                         <ColorPicker color={team2Color} team={2} action={this.handleChangeColor} />
                     </Row>
-                    <Row className="level col-6 mx-auto justify-content-center">
+                    <Row className="col-6 mx-auto justify-content-center">
                         <h1>Choix du niveau</h1>
                         {
                             Config.levels.map((l, k) => {
